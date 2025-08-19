@@ -1,0 +1,52 @@
+@use 'sass:map' as m;
+@use 'globals' as g;
+img{
+    max-width: 100%;
+    height:auto;
+}
+.typo-sub-header{
+    font-weight: 500;
+}
+.typo-header-main{
+    font-weight:800;
+}
+.typo-header-util{
+    font-size: m.get(g.$units,'r-size-3');
+}
+.typo-para-type{
+    font-weight: 700;
+    color:m.get(g.$colors,'util');
+}
+.typo-projects-title{
+    color:m.get(g.$colors,'sub');
+    padding-block: m.get(g.$spacing,'sm-1');
+    font-size:1.2rem;
+}
+.typo-projects-semititle{
+    color:m.get(g.$colors,'util-1');
+    font-weight: 400;
+}
+.highlight{
+    font-weight: 700;
+    color:m.get(g.$colors,'sub')
+}
+.navigation-cta{
+    color:white;
+    text-decoration: none;
+    padding:m.get(g.$spacing,'sm-4');
+    background:m.get(g.$colors,'sub');
+    border-radius: 8px;
+    &:hover{
+        background:m.get(g.$colors,'sub:hover');       
+    }
+}
+.social-icon{
+    color:white;
+    font-size: m.get(g.$units,'r-size-2');
+}
+.skill-icon{
+    width:2.6em;
+}
+.holder-image{
+    width:14em;
+}

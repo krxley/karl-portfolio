@@ -1,0 +1,169 @@
+@use 'globals' as g;
+@use 'sass:map' as m;
+.wrapper{
+   & > *{
+       padding:m.get(g.$spacing,'md-2');
+       padding-block: m.get(g.$spacing,'lg-5');
+
+
+   }
+   & >*:nth-of-type(odd){
+    background:m.get(g.$colors,'pr');
+    color:white;
+   }
+}
+.lead-page{
+    padding-block:m.get(g.$spacing,'lg-3');
+    .main-profile{
+        color:white;
+
+        display:grid;
+        place-items: center;
+        margin-bottom: m.get(g.$spacing,'md-2');
+        & .profile-img{
+            margin-bottom: m.get(g.$spacing,'lg-2');
+        }
+        & .typo-sub-header{
+            font-weight: 400;
+        }
+    }
+    .social-links{
+        text-align:center;
+
+    }
+}
+
+
+
+.about-me{
+    color: m.get(g.$colors,'pr');
+
+    & .side-container:nth-of-type(1){
+        line-height: 1.4;
+        text-align: center;
+        max-width: 36ch;
+        margin: 0 auto;
+        p{
+            padding-block: m.get(g.$spacing,'md-1');
+        }
+    }
+    & .side-container:nth-of-type(2){
+        text-align: center;
+        margin-top: m.get(g.$spacing,'sm-4');
+        justify-content: center;
+        & .service-wrap{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            gap:m.get(g.$spacing,'sm-1');
+            flex-wrap: wrap;
+            margin-top: m.get(g.$spacing,'sm-1');
+            .services{
+                max-width:24ch;
+                padding:m.get(g.$spacing,'sm-2');
+                text-align: center;
+                font-weight: 500;
+                border-radius: 15px;
+                background:m.get(g.$colors,'sub');
+                color:white;
+                i{
+                    margin-right: m.get(g.$spacing,'sm-1');
+                }                
+            }
+        }
+    }
+}
+
+.skills{
+    background:orange;
+    h5{
+        text-align: center;
+    }
+    .skills-wrap{
+        display: flex;
+        gap:m.get(g.$spacing,'lg-1');
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: m.get(g.$spacing,'md-2');
+    }
+    .skills-grid{
+        display:flex;
+        flex-direction: column;
+        gap:m.get(g.$spacing,'md-1');
+        .skills-cover{  
+            display: flex;
+            align-items: center;
+            gap:m.get(g.$spacing,'sm-1');
+            
+        }
+    }
+}
+
+.projects{
+    color: m.get(g.$colors,'pr');
+    & > h5{
+        text-align: center;
+    }
+    .projects-grid{
+        margin-top: m.get(g.$spacing,'md-1');
+        display:flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:m.get(g.$spacing,'md-1');
+        justify-content: center;
+        .projects-cover{
+            background:m.get(g.$colors,'pr');
+            .projects-body{
+                color:white;
+                padding:m.get(g.$spacing,'md-1');
+            }
+        }
+    }
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    a{
+        margin-top: m.get(g.$spacing,'md-1');
+        
+    }
+    
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .social-links{
+        .social-icon{
+            color:m.get(g.$colors,'pr');
+
+        }
+    }
+}
+
+@media (min-width:37.5em) {
+    body{
+        // background:red;
+    }
+    .about-me{
+        .side-container:nth-of-type(1){
+            max-width: 50ch;
+        }
+    }
+    .skills-wrap{
+        display: flex;
+        gap:m.get(g.$spacing,'lg-5')!important;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+       .skills-grid:nth-of-type(1){
+       }
+    }
+}
+  

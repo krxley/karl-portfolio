@@ -1,0 +1,48 @@
+@use 'sass:map' as m;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+$colors : (
+    'pr' : #383838,
+    'sub' : #E08F62,
+    'sub:hover' : #f6ac84,
+    'util' : #555454,
+    'util-1': #cfcfcf
+);
+$spacing : (
+    'sm-1': 0.4em,
+    'sm-2': 0.6em,
+    'sm-3': 0.8em,
+    'sm-4': 0.9em,
+
+    'md-1': 1em,
+    'md-2': 1.2em,
+    'md-3': 1.4em,
+    'md-4': 1.6em,
+
+    'lg-1': 2em,
+    'lg-2': 2.4em,
+    'lg-3': 3em,
+    'lg-4': 3.4em,
+    'lg-5': 4em,
+    'lg-6': 4.4em,
+    'lg-7': 5em,
+    'lg-8': 5.4em,
+    'lg-9': 6em,
+);
+$units : (
+    'r-size-1': 1rem,
+    'r-size-2': 1.2rem,
+    'r-size-3': 1.4rem,
+    'r-size-4': 1.6rem,
+    'r-size-5': 1.8rem,
+    'r-size-6': 2rem,
+    'r-size-7': 2.4rem,
+);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans';
+    box-sizing: border-box;
+}
