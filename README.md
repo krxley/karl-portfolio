@@ -26,7 +26,7 @@ Contributing & feedback
 
 Contact
 - Email: (karlashleybesa@gmail.com)
-- Links: (linkedin.com/in/karl-ashley-besa-8a3b83294 / https://www.facebook.com/krxley)
+- Links: (https://linkedin.com/in/karl-ashley-besa-8a3b83294 / https://www.facebook.com/krxley)
 
 License
 - MIT
