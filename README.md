@@ -1,3 +1,19 @@
 # Karl-Portfolio
 
-Karl’s Portfolio is a creative, living gallery crafted with HTML and SCSS. Wander through playful project snapshots, experimental UI explorations, and thoughtful interactions—each piece a small design journey. The site pairs a minimalist, responsive layout with subtle details and animations to invite curiosity, spark ideas, and make connections. Built to be fast and easy to remix, it's perfect for collaborators, prospective teams, and anyone who loves elegant, hands-on front-end work.
+Karl’s Portfolio blends a professional, design-forward presentation with a warm, personal voice. It highlights selected front‑end projects, design experiments, and practical code demos built with semantic HTML and SCSS. The site favors clarity, accessibility, and fast load performance, using subtle interactions and intentional typography to make the work feel approachable and polished.
+
+Inside you'll find concise case snapshots, links to live demos and source, and short notes about the problems solved and lessons learned. Built to be easy to remix and extend, the project welcomes feedback and collaboration—whether you’re a hiring manager, a fellow designer-developer, or someone who likes elegant, hands-on front-end work.
+
+Demo
+- Live demo: (add link)
+
+Technologies
+- HTML
+- SCSS
+- Optional: small JavaScript for interactions
+
+License
+- MIT
+
+Contact
+- Email: (add email)
